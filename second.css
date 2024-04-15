@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    background-image: url(imgs/back1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#shape {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: calc((66% - 400px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#shape h1{
+    font-size: 50px;
+    color: blue;
+}

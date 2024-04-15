@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+header {
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 5px;
+  z-index: 10;
+  border-radius: 15px;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 0 10px 5px rgba(206, 206, 206, 0.9);
+}
+
+header .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+header .logo img {
+  width: 40px;
+  border: 2px solid rgb(23, 166, 255);
+  box-shadow: 2px;
+  border-radius: 5px;
+}
+
+.logo span {
+  font-weight: 900;
+}
+
+header ul {
+  display: flex;
+  gap: 13px;
+}
+
+header ul a {
+  color: black;
+  transition: font-size 0.5s ease;
+}
+
+header .nav a:hover {
+  font-size: 18px;
+}
+
+header .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+header .links a {
+  color: black;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  transition: background-color 0.5s ease;
+}
+
+header .links a:hover {
+  background-color: rgb(23, 166, 255);
+}
+
+header .links .test {
+  padding: 5px 20px 5px 22px;
+  margin: auto;
+  border: 2px solid rgb(23, 166, 255);
+}
+
+header .links .python-strings {
+  border: 2px solid rgb(23, 166, 255);
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-image: url("imgs/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+#Home .blue-text {
+  color:rgb(0 112 255);
+}
+
+#Home h1 {
+  font-size: 5.5rem;
+  font-family: "Shadows Into Light", cursive;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.9),
+    0 0 20px rgba(23, 166, 255, 0.9), 0 0 30px rgba(23, 166, 255, 0.9);
+}
+
+#Home h2 {
+  font-size: 2rem;
+}
+
+#Home p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#Home .description {
+  font-weight: 900;
+}
+
+#Home .Names {
+  margin-top: 350px;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#Home .students p {
+  margin: 10px 0;
+}
+
+#Home .coordinator {
+  margin: 20px 10px 20px 10px;
+  font-weight: bold;
+}
+
+.Summarization-About {
+  background-image: url("imgs/endless-constellation.svg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+#Summarization {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: fit-content;
+  text-align: center;
+}
+
+#Summarization p {
+  margin-top: 15px;
+}
+
+#About-Us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 700px;
+  margin: 0px 10px 10px 10px;
+}
+
+.card img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 15px 0;
+  font-size: 1rem;
+}
+
+.card p .field {
+  font-weight: 700;
+}
+
+.card .social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.card .social-links a {
+  margin: 0 10px;
+}
+
+.card .social-links img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.card .social-links a:hover img {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .container, header .container, #About-Us {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  header .container, .card {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #Home h1 {
+    font-size: 4rem;
+  }
+
+  #Home h2 {
+    font-size: 1.5rem;
+  }
+
+  #Home p {
+    font-size: 1rem;
+  }
+
+  .card img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .card h2, .card p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+
+  .card .social-links a img {
+    width: 25px;
+    height: 25px;
+  }
+}
